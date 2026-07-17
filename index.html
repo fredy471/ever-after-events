@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ever After Events — Wedding Planner de mariages d'exception</title>
+<meta name="description" content="Ever After Events imagine et orchestre des mariages sur-mesure, empreints d'élégance et d'émotion. Écrivons ensemble le premier chapitre de votre histoire.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="assets/css/style.css" class="">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,500&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- Golden thread signature -->
+<div id="thread-wrap" aria-hidden="true">
+  <svg viewBox="0 0 26 100" preserveAspectRatio="none">
+    <defs>
+      <linearGradient id="threadGradient" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#D4AF37"/>
+        <stop offset="100%" stop-color="#4F2D8C"/>
+      </linearGradient>
+    </defs>
+    <path id="thread-track" d="M13,0 C 4,16 22,32 13,48 C4,64 22,80 13,100" vector-effect="non-scaling-stroke"/>
+    <path id="thread-fill" d="M13,0 C 4,16 22,32 13,48 C4,64 22,80 13,100" vector-effect="non-scaling-stroke"/>
+  </svg>
+</div>
+
+<header id="site-header">
+  <div class="container nav-inner">
+    <a href="#top" class="logo">Ever After <span>Events</span></a>
+    <nav class="links" id="nav-links">
+      <a href="#apropos">À propos</a>
+      <a href="#services">Services</a>
+      <a href="#parcours">Parcours</a>
+      <a href="#galerie">Galerie</a>
+      <a href="#configurateur">Composez</a>
+      <a href="#avis">Avis</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="nav-overlay" id="nav-overlay"></div>
+    <div class="nav-cta">
+      <a href="#contact" class="btn btn-secondary">Prendre rendez-vous</a>
+      <button class="burger" id="burger" aria-label="Ouvrir le menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-media" id="hero-media">
+      <img src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1800&q=80" alt="Mariés élégants au coucher du soleil">
+    </div>
+    <div class="container hero-content">
+      <p class="hero-eyebrow">Wedding planner &amp; direction artistique</p>
+      <h1>Votre histoire d'amour<br>mérite d'être <em>racontée</em><br>avec grâce.</h1>
+      <p class="lead">Ever After Events imagine et orchestre des mariages sur-mesure, où chaque détail devient un souvenir. Du premier rendez-vous au dernier au revoir, nous portons votre émotion.</p>
+      <div class="hero-actions">
+        <a href="#contact" class="btn btn-primary">Commençons à écrire votre histoire</a>
+        <a href="#galerie" class="btn btn-ghost-light">Découvrir nos mariages</a>
+      </div>
+    </div>
+    <div class="scroll-cue"><span>Défiler</span><span class="line"></span></div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="apropos">
+    <div class="container about-grid">
+      <div class="about-media reveal">
+        <div class="about-badge">Depuis 2013 · Paris</div>
+        <div class="frame-main">
+          <img src="https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?auto=format&fit=crop&w=1000&q=80" alt="Portrait de mariée souriante">
+        </div>
+        <div class="frame-float">
+          <img src="https://images.unsplash.com/photo-1583939003579-730e3918a45a?auto=format&fit=crop&w=500&q=80" alt="Détail d'alliances et bouquet">
+        </div>
+      </div>
+      <div class="about-copy reveal reveal-delay-1">
+        <p class="eyebrow">À propos d'Ever After Events</p>
+        <h2>Des noces pensées comme<br>un roman, pas comme<br>une liste de tâches.</h2>
+        <p>Ever After Events est née d'une conviction simple : un mariage réussi ne se résume pas à une logistique parfaite, mais à une émotion qui se déploie du premier regard au dernier slow.</p>
+        <p>Notre équipe de wedding planners, décorateurs et coordinateurs jour J travaille comme un seul atelier créatif, au service d'une seule histoire : la vôtre.</p>
+        <p class="signature-quote">« Nous ne planifions pas des mariages. Nous mettons en scène des serments. »</p>
+        <div class="about-stats">
+          <div><strong>150+</strong><span>Mariages orchestrés</span></div>
+          <div><strong>12</strong><span>Ans d'expérience</span></div>
+          <div><strong>98%</strong><span>Clients ravis</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-head center reveal">
+        <p class="eyebrow" style="justify-content:center">Nos services</p>
+        <h2>Donnons vie à votre<br>mariage de rêve</h2>
+        <p>Un accompagnement modulable, du conseil ponctuel à l'orchestration complète de votre journée.</p>
+      </div>
+      <div class="services-grid">
+
+        <div class="service-card reveal">
+          <span class="service-num">01</span>
+          <svg class="service-icon" viewBox="0 0 48 48" fill="none"><path d="M24 6c-7 6-14 11-14 20a14 14 0 0028 0c0-9-7-14-14-20z" stroke="#4F2D8C" stroke-width="1.6"/><path d="M24 16v22M18 24c2 3 8 3 12 0" stroke="#D4AF37" stroke-width="1.6" stroke-linecap="round"/></svg>
+          <h3>Wedding planning complet</h3>
+          <p>De la vision d'ensemble au moindre détail, une conduite du projet de A à Z, sereine et sur-mesure.</p>
+        </div>
+
+        <div class="service-card reveal reveal-delay-1">
+          <span class="service-num">02</span>
+          <svg class="service-icon" viewBox="0 0 48 48" fill="none"><path d="M8 38l6-20 10-6 10 6 6 20" stroke="#4F2D8C" stroke-width="1.6" stroke-linejoin="round"/><circle cx="24" cy="14" r="4" stroke="#D4AF37" stroke-width="1.6"/></svg>
+          <h3>Direction artistique &amp; décor</h3>
+          <p>Une identité visuelle unique pour votre journée : palette, scénographie, fleurs et lumière en harmonie.</p>
+        </div>
+
+        <div class="service-card reveal reveal-delay-2">
+          <span class="service-num">03</span>
+          <svg class="service-icon" viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="16" stroke="#4F2D8C" stroke-width="1.6"/><path d="M24 15v9l6 4" stroke="#D4AF37" stroke-width="1.6" stroke-linecap="round"/></svg>
+          <h3>Coordination jour J</h3>
+          <p>Présence sur site, timing millimétré et gestion des imprévus pour que vous ne pensiez qu'à vivre l'instant.</p>
+        </div>
+
+        <div class="service-card reveal">
+          <span class="service-num">04</span>
+          <svg class="service-icon" viewBox="0 0 48 48" fill="none"><rect x="8" y="12" width="32" height="24" rx="4" stroke="#4F2D8C" stroke-width="1.6"/><path d="M8 18h32M16 12V8M32 12V8" stroke="#D4AF37" stroke-width="1.6" stroke-linecap="round"/></svg>
+          <h3>Sélection de prestataires</h3>
+          <p>Un réseau trié sur le volet — traiteurs, photographes, fleuristes — pour une équipe à votre image.</p>
+        </div>
+
+        <div class="service-card reveal reveal-delay-1">
+          <span class="service-num">05</span>
+          <svg class="service-icon" viewBox="0 0 48 48" fill="none"><path d="M6 24c6-10 30-10 36 0-6 10-30 10-36 0z" stroke="#4F2D8C" stroke-width="1.6"/><circle cx="24" cy="24" r="4" stroke="#D4AF37" stroke-width="1.6"/></svg>
+          <h3>Mariages destination</h3>
+          <p>Toscane, Provence, îles grecques : nous organisons votre union partout où vous rêvez de dire oui.</p>
+        </div>
+
+        <div class="service-card reveal reveal-delay-2">
+          <span class="service-num">06</span>
+          <svg class="service-icon" viewBox="0 0 48 48" fill="none"><path d="M12 30c0-8 5.4-16 12-16s12 8 12 16" stroke="#4F2D8C" stroke-width="1.6" stroke-linecap="round"/><path d="M8 30h32v6H8z" stroke="#D4AF37" stroke-width="1.6"/></svg>
+          <h3>Expérience invités</h3>
+          <p>Accueil, hébergement, animations : chaque invité vit votre mariage comme un moment inoubliable.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- TIMELINE -->
+  <section class="timeline-section" id="parcours">
+    <div class="container">
+      <div class="section-head center reveal">
+        <p class="eyebrow" style="justify-content:center">Le parcours</p>
+        <h2>Votre mariage,<br>étape par étape</h2>
+        <p>Un fil conducteur clair, du premier échange au grand jour, pour avancer sans jamais vous sentir seuls.</p>
+      </div>
+
+      <div class="timeline" id="timeline">
+        <div class="timeline-line"><div class="fill" id="timeline-fill"></div></div>
+
+        <div class="t-row reveal">
+          <div class="t-card"><p class="t-when">12 mois avant</p><h4>Rencontre &amp; vision</h4><p>Nous écoutons votre histoire, votre budget et vos envies pour poser les fondations du projet.</p></div>
+          <div class="t-dot"></div><div></div>
+        </div>
+        <div class="t-row reveal">
+          <div></div><div class="t-dot"></div>
+          <div class="t-card"><p class="t-when">9 mois avant</p><h4>Lieu &amp; prestataires</h4><p>Sélection du lieu de réception et constitution de votre équipe sur-mesure de partenaires.</p></div>
+        </div>
+        <div class="t-row reveal">
+          <div class="t-card"><p class="t-when">6 mois avant</p><h4>Direction artistique</h4><p>Palette, scénographie, papeterie : votre univers visuel prend forme dans les moindres détails.</p></div>
+          <div class="t-dot"></div><div></div>
+        </div>
+        <div class="t-row reveal">
+          <div></div><div class="t-dot"></div>
+          <div class="t-card"><p class="t-when">3 mois avant</p><h4>Derniers réglages</h4><p>Essayages, dégustations, plan de table : nous affinons chaque détail avec vous.</p></div>
+        </div>
+        <div class="t-row reveal">
+          <div class="t-card"><p class="t-when">1 mois avant</p><h4>Répétition générale</h4><p>Timing final, briefing des prestataires et visite du lieu pour une organisation sans faille.</p></div>
+          <div class="t-dot"></div><div></div>
+        </div>
+        <div class="t-row reveal">
+          <div></div><div class="t-dot"></div>
+          <div class="t-card"><p class="t-when">Le grand jour</p><h4>Vous vivez, nous orchestrons</h4><p>Présents dès l'aube, nous veillons sur chaque instant pour que vous n'ayez qu'à en profiter.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY US -->
+  <section class="why">
+    <div class="container">
+      <div class="section-head center reveal">
+        <p class="eyebrow" style="justify-content:center">Pourquoi nous choisir</p>
+        <h2>L'exigence, au service<br>de votre émotion</h2>
+        <p>Ce qui distingue Ever After Events, ce n'est pas seulement notre expérience — c'est notre manière d'y être présents.</p>
+      </div>
+      <div class="why-grid">
+        <div class="why-card reveal">
+          <div class="num">01</div>
+          <h4>Sur-mesure absolu</h4>
+          <p>Aucun mariage type : chaque projet part d'une page blanche et de votre histoire.</p>
+        </div>
+        <div class="why-card reveal reveal-delay-1">
+          <div class="num">02</div>
+          <h4>Réseau d'exception</h4>
+          <p>Des artisans et prestataires triés pour leur talent et leur fiabilité éprouvée.</p>
+        </div>
+        <div class="why-card reveal reveal-delay-2">
+          <div class="num">03</div>
+          <h4>Présence le jour J</h4>
+          <p>Une équipe dédiée sur place, du lever du jour jusqu'à la dernière danse.</p>
+        </div>
+        <div class="why-card reveal reveal-delay-3">
+          <div class="num">04</div>
+          <h4>Transparence budgétaire</h4>
+          <p>Un suivi précis et honnête, sans surprise, pour avancer en toute confiance.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS -->
+  <section class="stats">
+    <div class="container stats-grid">
+      <div class="stat reveal"><strong data-count="150" data-suffix="+">0</strong><span>Mariages orchestrés</span></div>
+      <div class="stat reveal reveal-delay-1"><strong data-count="12">0</strong><span>Années d'expérience</span></div>
+      <div class="stat reveal reveal-delay-2"><strong data-count="98" data-suffix="%">0</strong><span>Taux de recommandation</span></div>
+      <div class="stat reveal reveal-delay-3"><strong data-count="7">0</strong><span>Pays d'intervention</span></div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section class="gallery" id="galerie">
+    <div class="container">
+      <div class="section-head center reveal">
+        <p class="eyebrow" style="justify-content:center">Galerie</p>
+        <h2>Des instants,<br>devenus souvenirs</h2>
+        <p>Un aperçu de mariages imaginés et orchestrés par notre équipe.</p>
+      </div>
+      <div class="gallery-grid">
+        <div class="g-item big reveal"><img src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&w=1200&q=80" alt="Cérémonie en extérieur"><span class="g-label">Cérémonie, Provence</span></div>
+        <div class="g-item reveal"><img src="https://images.unsplash.com/photo-1522673607200-164d1b6ce486?auto=format&fit=crop&w=700&q=80" alt="Bouquet de mariée"><span class="g-label">Bouquet romantique</span></div>
+        <div class="g-item reveal reveal-delay-1"><img src="https://images.unsplash.com/photo-1529636798458-92182e662485?auto=format&fit=crop&w=700&q=80" alt="Table décorée pour la réception"><span class="g-label">Table d'honneur</span></div>
+        <div class="g-item reveal"><img src="https://images.unsplash.com/photo-1606216794074-735e91aa2c92?auto=format&fit=crop&w=700&q=80" alt="Alliances posées sur un tissu"><span class="g-label">Le détail des alliances</span></div>
+        <div class="g-item reveal reveal-delay-1"><img src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=700&q=80" alt="Premier baiser des mariés"><span class="g-label">Le premier baiser</span></div>
+        <div class="g-item reveal reveal-delay-2"><img src="https://images.unsplash.com/photo-1550005809-91ad75fb315f?auto=format&fit=crop&w=700&q=80" alt="Soirée dansante"><span class="g-label">Nuit de célébration</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="testimonials" id="avis">
+    <div class="container">
+      <div class="section-head center reveal">
+        <p class="eyebrow" style="justify-content:center">Avis clients</p>
+        <h2>Ils ont vécu<br>leur « pour toujours »</h2>
+      </div>
+
+      <div class="t-scroll" id="t-scroll">
+        <div class="review-card reveal">
+          <div class="stars">★★★★★</div>
+          <p class="quote">« Nous avons vécu notre mariage sans jamais courir après le temps. Chaque détail portait notre histoire. »</p>
+          <div class="review-who">
+            <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=100&q=80" alt="">
+            <div><strong>Camille &amp; Antoine</strong><span>Mariage à Aix-en-Provence</span></div>
+          </div>
+        </div>
+        <div class="review-card reveal reveal-delay-1">
+          <div class="stars">★★★★★</div>
+          <p class="quote">« L'équipe a compris notre univers en un seul rendez-vous. Le jour J était exactement le film qu'on imaginait. »</p>
+          <div class="review-who">
+            <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=100&q=80" alt="">
+            <div><strong>Léa &amp; Hugo</strong><span>Mariage en Toscane</span></div>
+          </div>
+        </div>
+        <div class="review-card reveal reveal-delay-2">
+          <div class="stars">★★★★★</div>
+          <p class="quote">« Un accompagnement d'une justesse rare, entre écoute et exigence. Nos invités en parlent encore. »</p>
+          <div class="review-who">
+            <img src="https://images.unsplash.com/photo-1519699047748-de8e457a634e?auto=format&fit=crop&w=100&q=80" alt="">
+            <div><strong>Sarah &amp; Nicolas</strong><span>Mariage à Deauville</span></div>
+          </div>
+        </div>
+        <div class="review-card reveal">
+          <div class="stars">★★★★★</div>
+          <p class="quote">« Ever After Events a transformé notre stress en excitation. Une équipe humaine, précise et pleine de goût. »</p>
+          <div class="review-who">
+            <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=100&q=80" alt="">
+            <div><strong>Julie &amp; Marc</strong><span>Mariage à Lyon</span></div>
+          </div>
+        </div>
+      </div>
+      <div class="t-controls">
+        <button id="t-prev" aria-label="Avis précédent">←</button>
+        <button id="t-next" aria-label="Avis suivant">→</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="faq" id="faq">
+    <div class="section-head center reveal">
+      <p class="eyebrow" style="justify-content:center">Questions fréquentes</p>
+      <h2>Tout ce que vous<br>vous demandez</h2>
+    </div>
+
+    <div class="faq-item open reveal">
+      <button class="faq-q"><span>Combien coûte l'organisation d'un mariage avec vous ?</span><span class="plus">+</span></button>
+      <div class="faq-a"><p>Chaque projet étant unique, nos tarifs varient selon le niveau d'accompagnement souhaité. Nous établissons un devis personnalisé après notre premier échange, en toute transparence.</p></div>
+    </div>
+    <div class="faq-item reveal">
+      <button class="faq-q"><span>Combien de temps à l'avance faut-il vous contacter ?</span><span class="plus">+</span></button>
+      <div class="faq-a"><p>Idéalement 9 à 12 mois avant la date envisagée, pour sécuriser les meilleurs lieux et prestataires. Nous accompagnons aussi les projets plus courts, selon les disponibilités.</p></div>
+    </div>
+    <div class="faq-item reveal">
+      <button class="faq-q"><span>Travaillez-vous sur des mariages à l'international ?</span><span class="plus">+</span></button>
+      <div class="faq-a"><p>Oui, nous orchestrons régulièrement des mariages en Provence, en Toscane, en Grèce et ailleurs. Notre réseau de partenaires locaux garantit la même exigence, où que vous disiez oui.</p></div>
+    </div>
+    <div class="faq-item reveal">
+      <button class="faq-q"><span>Proposez-vous uniquement la coordination du jour J ?</span><span class="plus">+</span></button>
+      <div class="faq-a"><p>Tout à fait. Si vous avez déjà organisé votre mariage, nous prenons le relais quelques semaines avant pour assurer une coordination fluide et sans stress le jour J.</p></div>
+    </div>
+    <div class="faq-item reveal">
+      <button class="faq-q"><span>Comment se déroule le premier rendez-vous ?</span><span class="plus">+</span></button>
+      <div class="faq-a"><p>Un échange, en agence ou en visio, pour découvrir votre histoire, vos envies et votre budget. Sans engagement, il nous permet de vous proposer un accompagnement réellement adapté.</p></div>
+    </div>
+  </section>
+
+  <!-- CONFIGURATEUR -->
+  <section class="configurator" id="configurateur">
+    <div class="container">
+      <div class="section-head center reveal">
+        <p class="eyebrow" style="justify-content:center">Le petit plus</p>
+        <h2>Composez votre histoire</h2>
+        <p>Trois choix, une seule intention : commencer à dessiner l'univers de votre mariage, en direct.</p>
+      </div>
+
+      <div class="cfg-wrap reveal">
+        <div class="cfg-panel-outer">
+
+          <div class="cfg-progress">
+            <div class="cfg-step active" data-step="1"><span class="cfg-step-num">1</span><span>Style</span></div>
+            <div class="cfg-step" data-step="2"><span class="cfg-step-num">2</span><span>Décor</span></div>
+            <div class="cfg-step" data-step="3"><span class="cfg-step-num">3</span><span>Ambiance</span></div>
+          </div>
+
+          <div class="cfg-panel active" data-panel="1">
+            <h3 class="cfg-title">Quel style vous ressemble ?</h3>
+            <p class="cfg-sub">Choisissez l'esthétique qui vous inspire le plus.</p>
+            <div class="cfg-grid" data-group="style">
+              <button type="button" class="cfg-card" data-value="romantique">
+                <span class="cfg-swatch palette"><span style="background:#D88FA4"></span><span style="background:#D4AF37"></span><span style="background:#FAF8F5"></span></span>
+                <strong>Romantique</strong><small>Douceur, dentelle et pivoines</small>
+              </button>
+              <button type="button" class="cfg-card" data-value="minimaliste">
+                <span class="cfg-swatch palette"><span style="background:#FFFFFF;border:1px solid #E8E5DF"></span><span style="background:#5E5E72"></span><span style="background:#D4AF37"></span></span>
+                <strong>Minimaliste</strong><small>Lignes épurées, élégance discrète</small>
+              </button>
+              <button type="button" class="cfg-card" data-value="luxe">
+                <span class="cfg-swatch palette"><span style="background:#4F2D8C"></span><span style="background:#D4AF37"></span><span style="background:#1F1F2E"></span></span>
+                <strong>Grand luxe</strong><small>Faste, cristal et dorures</small>
+              </button>
+              <button type="button" class="cfg-card" data-value="champetre">
+                <span class="cfg-swatch palette"><span style="background:#A8935B"></span><span style="background:#EFE7D8"></span><span style="background:#6B7B54"></span></span>
+                <strong>Champêtre chic</strong><small>Nature, bois brut et lin</small>
+              </button>
+            </div>
+          </div>
+
+          <div class="cfg-panel" data-panel="2">
+            <h3 class="cfg-title">Où imaginez-vous dire oui ?</h3>
+            <p class="cfg-sub">Le décor donne le ton de toute votre journée.</p>
+            <div class="cfg-grid" data-group="decor">
+              <button type="button" class="cfg-card" data-value="chateau">
+                <span class="cfg-swatch"><img src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=400&q=60" alt=""></span>
+                <strong>Château</strong><small>Grandeur et histoire</small>
+              </button>
+              <button type="button" class="cfg-card" data-value="mer">
+                <span class="cfg-swatch"><img src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&w=400&q=60" alt=""></span>
+                <strong>Bord de mer</strong><small>Horizon et lumière naturelle</small>
+              </button>
+              <button type="button" class="cfg-card" data-value="jardin">
+                <span class="cfg-swatch"><img src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=400&q=60" alt=""></span>
+                <strong>Jardin secret</strong><small>Verdure et intimité</small>
+              </button>
+              <button type="button" class="cfg-card" data-value="rooftop">
+                <span class="cfg-swatch"><img src="https://images.unsplash.com/photo-1606216794074-735e91aa2c92?auto=format&fit=crop&w=400&q=60" alt=""></span>
+                <strong>Rooftop urbain</strong><small>Skyline et modernité</small>
+              </button>
+            </div>
+          </div>
+
+          <div class="cfg-panel" data-panel="3">
+            <h3 class="cfg-title">Quelle ambiance pour vos invités ?</h3>
+            <p class="cfg-sub">La taille de votre réception façonne l'expérience.</p>
+            <div class="cfg-grid" data-group="ambiance" style="grid-template-columns:1fr;">
+              <button type="button" class="cfg-card" data-value="intime">
+                <strong>Intime</strong><small>Moins de 50 invités, en cercle proche</small>
+              </button>
+              <button type="button" class="cfg-card" data-value="elegante">
+                <strong>Élégante</strong><small>De 50 à 150 invités</small>
+              </button>
+              <button type="button" class="cfg-card" data-value="grandbal">
+                <strong>Grand bal</strong><small>Plus de 150 invités, en grande fête</small>
+              </button>
+            </div>
+          </div>
+
+          <div class="cfg-actions">
+            <button type="button" class="btn btn-secondary" id="cfg-back" disabled>Précédent</button>
+            <button type="button" class="btn btn-primary" id="cfg-next" disabled>Suivant</button>
+          </div>
+        </div>
+
+        <div class="cfg-preview">
+          <img id="cfg-preview-img" src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1000&q=70" alt="Aperçu de votre mariage">
+          <div class="cfg-preview-overlay">
+            <span class="cfg-preview-eyebrow">Aperçu en direct</span>
+            <p class="cfg-preview-text" id="cfg-preview-text">Composez votre mariage pour découvrir son univers…</p>
+            <div class="cfg-palette" id="cfg-palette"></div>
+            <div class="cfg-final" id="cfg-final">
+              <a href="#contact" class="btn btn-primary" id="cfg-send">Recevoir ma proposition sur-mesure</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">Contact</p>
+        <h2>Racontons-nous<br>votre histoire</h2>
+        <p>Parlez-nous de votre projet : nous revenons vers vous sous 48h avec plaisir et attention.</p>
+      </div>
+
+      <div class="contact-grid reveal">
+        <div class="contact-media">
+          <img src="https://images.unsplash.com/photo-1606800052052-a08af7148866?auto=format&fit=crop&w=900&q=80" alt="Mariés main dans la main">
+          <div class="overlay">
+            <h3>Parlons de votre<br>« pour toujours »</h3>
+            <div class="contact-info">
+              <span>bonjour@everafterevents.fr</span>
+              <span>+33 1 84 60 12 34</span>
+              <span>12 rue des Vignes, 75016 Paris</span>
+              <span>@everafterevents</span>
+            </div>
+          </div>
+        </div>
+        <form class="contact-form" onsubmit="event.preventDefault(); this.querySelector('.btn').textContent='Message envoyé ✓';">
+          <h3>Un projet en tête ?</h3>
+          <p>Quelques informations suffisent pour démarrer la conversation.</p>
+          <div class="form-row">
+            <div class="field"><label for="f-name">Vos prénoms</label><input id="f-name" type="text" placeholder="Camille &amp; Antoine" required></div>
+            <div class="field"><label for="f-email">Email</label><input id="f-email" type="email" placeholder="vous@email.com" required></div>
+          </div>
+          <div class="form-row">
+            <div class="field"><label for="f-date">Date envisagée</label><input id="f-date" type="date"></div>
+            <div class="field"><label for="f-guests">Nombre d'invités</label><input id="f-guests" type="number" placeholder="120"></div>
+          </div>
+          <div class="field"><label for="f-msg">Votre histoire, en quelques mots</label><textarea id="f-msg" placeholder="Parlez-nous de votre vision, votre lieu de rêve, votre style…"></textarea></div>
+          <button type="submit" class="btn btn-primary" style="width:100%; margin-top:6px;">Commençons à écrire votre histoire</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FINAL CTA -->
+  <section class="cta-final">
+    <div class="container">
+      <p class="eyebrow reveal">Ever After Events</p>
+      <h2 class="reveal">Votre « pour toujours »<br>commence par un premier mot.</h2>
+      <p class="reveal reveal-delay-1">Il ne manque plus qu'une chose à votre histoire : la décision de la faire commencer aujourd'hui.</p>
+      <a href="#contact" class="btn btn-primary reveal reveal-delay-2">Commençons à écrire votre histoire</a>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="#top" class="logo">Ever After <span>Events</span></a>
+        <p>Wedding planner premium basée à Paris, au service de mariages sur-mesure en France et à l'international.</p>
+      </div>
+      <div class="footer-col">
+        <h5>Navigation</h5>
+        <ul>
+          <li><a href="#apropos">À propos</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#galerie">Galerie</a></li>
+          <li><a href="#avis">Avis clients</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Services</h5>
+        <ul>
+          <li><a href="#services">Wedding planning</a></li>
+          <li><a href="#services">Direction artistique</a></li>
+          <li><a href="#services">Coordination jour J</a></li>
+          <li><a href="#services">Mariages destination</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Contact</h5>
+        <ul>
+          <li>bonjour@everafterevents.fr</li>
+          <li>+33 1 84 60 12 34</li>
+          <li>12 rue des Vignes, Paris</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Ever After Events. Tous droits réservés.</span>
+      <div class="socials">
+        <a href="#" aria-label="Instagram">IG</a>
+        <a href="#" aria-label="Pinterest">P</a>
+        <a href="#" aria-label="Facebook">F</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  // ---------- Header scroll state ----------
+  const header = document.getElementById('site-header');
+  const onScrollHeader = () => header.classList.toggle('scrolled', window.scrollY > 40);
+  document.addEventListener('scroll', onScrollHeader, { passive:true });
+  onScrollHeader();
+
+  // ---------- Mobile nav ----------
+  const burger = document.getElementById('burger');
+  const navLinks = document.getElementById('nav-links');
+  const navOverlay = document.getElementById('nav-overlay');
+
+  function setMenu(open){
+    navLinks.classList.toggle('open', open);
+    navOverlay.classList.toggle('open', open);
+    burger.setAttribute('aria-expanded', open);
+    document.body.style.overflow = open ? 'hidden' : '';
+  }
+  burger.addEventListener('click', () => setMenu(!navLinks.classList.contains('open')));
+  navOverlay.addEventListener('click', () => setMenu(false));
+  navLinks.querySelectorAll('a').forEach(a => a.addEventListener('click', () => setMenu(false)));
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') setMenu(false);
+  });
+
+  // ---------- Scroll reveal ----------
+  const revealEls = document.querySelectorAll('.reveal');
+  const revealObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('is-visible');
+        revealObserver.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.15, rootMargin: '0px 0px -60px 0px' });
+  revealEls.forEach(el => revealObserver.observe(el));
+
+  // ---------- Hero parallax ----------
+  const heroMedia = document.getElementById('hero-media');
+  const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if (!prefersReduced) {
+    document.addEventListener('scroll', () => {
+      const y = window.scrollY;
+      if (y < window.innerHeight) {
+        heroMedia.querySelector('img').style.transform = `scale(1.08) translateY(${y * 0.18}px)`;
+      }
+    }, { passive:true });
+  }
+
+  // ---------- Golden thread ----------
+  const threadFill = document.getElementById('thread-fill');
+  function updateThread(){
+    if (!threadFill) return;
+    const len = threadFill.getTotalLength();
+    threadFill.style.strokeDasharray = len;
+    const docH = document.documentElement.scrollHeight - window.innerHeight;
+    const progress = docH > 0 ? Math.min(1, Math.max(0, window.scrollY / docH)) : 0;
+    threadFill.style.strokeDashoffset = len * (1 - progress);
+  }
+  window.addEventListener('scroll', updateThread, { passive:true });
+  window.addEventListener('load', updateThread);
+  window.addEventListener('resize', updateThread);
+
+  // ---------- Timeline fill ----------
+  const timelineEl = document.getElementById('timeline');
+  const timelineFill = document.getElementById('timeline-fill');
+  function updateTimeline(){
+    if (!timelineEl) return;
+    const rect = timelineEl.getBoundingClientRect();
+    const vh = window.innerHeight;
+    const total = rect.height;
+    const visible = Math.min(total, Math.max(0, vh * 0.75 - rect.top));
+    const pct = total > 0 ? Math.min(100, Math.max(0, (visible/total)*100)) : 0;
+    timelineFill.style.height = pct + '%';
+  }
+  window.addEventListener('scroll', updateTimeline, { passive:true });
+  window.addEventListener('load', updateTimeline);
+  window.addEventListener('resize', updateTimeline);
+
+  // ---------- Counters ----------
+  const counters = document.querySelectorAll('[data-count]');
+  const counterObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        const el = entry.target;
+        const target = parseInt(el.dataset.count, 10);
+        const suffix = el.dataset.suffix || '';
+        const duration = 1400;
+        const start = performance.now();
+        function tick(now){
+          const p = Math.min(1, (now - start) / duration);
+          const eased = 1 - Math.pow(1 - p, 3);
+          el.textContent = Math.round(eased * target) + suffix;
+          if (p < 1) requestAnimationFrame(tick);
+        }
+        requestAnimationFrame(tick);
+        counterObserver.unobserve(el);
+      }
+    });
+  }, { threshold: 0.6 });
+  counters.forEach(el => counterObserver.observe(el));
+
+  // ---------- FAQ accordion ----------
+  document.querySelectorAll('.faq-item').forEach(item => {
+    const q = item.querySelector('.faq-q');
+    const a = item.querySelector('.faq-a');
+    function setState(open){
+      item.classList.toggle('open', open);
+      a.style.maxHeight = open ? a.scrollHeight + 'px' : '0px';
+    }
+    setState(item.classList.contains('open'));
+    q.addEventListener('click', () => setState(!item.classList.contains('open')));
+  });
+  window.addEventListener('resize', () => {
+    document.querySelectorAll('.faq-item.open .faq-a').forEach(a => a.style.maxHeight = a.scrollHeight + 'px');
+  });
+
+  // ---------- Configurateur interactif ----------
+  (function(){
+    const data = {
+      style: {
+        romantique: { label:'romantique', palette:['#D88FA4','#D4AF37','#FAF8F5'], img:'https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&w=1000&q=70' },
+        minimaliste:{ label:'minimaliste', palette:['#FFFFFF','#5E5E72','#D4AF37'], img:'https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?auto=format&fit=crop&w=1000&q=70' },
+        luxe:       { label:'grand luxe',  palette:['#4F2D8C','#D4AF37','#1F1F2E'], img:'https://images.unsplash.com/photo-1606800052052-a08af7148866?auto=format&fit=crop&w=1000&q=70' },
+        champetre:  { label:'champêtre chic', palette:['#A8935B','#EFE7D8','#6B7B54'], img:'https://images.unsplash.com/photo-1529636798458-92182e662485?auto=format&fit=crop&w=1000&q=70' }
+      },
+      decor: {
+        chateau: { label:'un château', img:'https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1000&q=70' },
+        mer:     { label:'un bord de mer', img:'https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&w=1000&q=70' },
+        jardin:  { label:'un jardin secret', img:'https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=1000&q=70' },
+        rooftop: { label:'un rooftop urbain', img:'https://images.unsplash.com/photo-1606216794074-735e91aa2c92?auto=format&fit=crop&w=1000&q=70' }
+      },
+      ambiance: {
+        intime:   { label:'intime, en cercle proche' },
+        elegante: { label:'élégante, entre 50 et 150 invités' },
+        grandbal: { label:'en grand bal, plus de 150 invités' }
+      }
+    };
+
+    const selection = { style:null, decor:null, ambiance:null };
+    let step = 1;
+    const totalSteps = 3;
+
+    const panels = document.querySelectorAll('.cfg-panel');
+    const steps = document.querySelectorAll('.cfg-step');
+    const btnBack = document.getElementById('cfg-back');
+    const btnNext = document.getElementById('cfg-next');
+    const previewImg = document.getElementById('cfg-preview-img');
+    const previewText = document.getElementById('cfg-preview-text');
+    const palette = document.getElementById('cfg-palette');
+    const finalBox = document.getElementById('cfg-final');
+    const sendBtn = document.getElementById('cfg-send');
+
+    if (!panels.length) return;
+
+    document.querySelectorAll('.cfg-card').forEach(card => {
+      card.addEventListener('click', () => {
+        const group = card.closest('[data-group]').dataset.group;
+        const value = card.dataset.value;
+        selection[group] = value;
+        card.closest('.cfg-grid').querySelectorAll('.cfg-card').forEach(c => c.classList.remove('selected'));
+        card.classList.add('selected');
+        btnNext.disabled = false;
+        updatePreview();
+      });
+    });
+
+    function updatePreview(){
+      const s = selection.style ? data.style[selection.style] : null;
+      const d = selection.decor ? data.decor[selection.decor] : null;
+      const a = selection.ambiance ? data.ambiance[selection.ambiance] : null;
+
+      if (d) previewImg.src = d.img; else if (s) previewImg.src = s.img;
+
+      if (!s && !d && !a) {
+        previewText.textContent = 'Composez votre mariage pour découvrir son univers…';
+      } else {
+        let sentence = 'Un mariage';
+        sentence += s ? ' ' + s.label : ' à composer';
+        if (d) sentence += ', dans ' + d.label;
+        if (a) sentence += ', pour une ambiance ' + a.label;
+        sentence += '.';
+        previewText.textContent = sentence;
+      }
+
+      palette.innerHTML = '';
+      if (s) {
+        s.palette.forEach(hex => {
+          const span = document.createElement('span');
+          span.style.background = hex;
+          palette.appendChild(span);
+        });
+      }
+
+      if (s && d && a) {
+        finalBox.classList.add('show');
+      } else {
+        finalBox.classList.remove('show');
+      }
+    }
+
+    function goToStep(n){
+      step = Math.min(Math.max(n,1), totalSteps);
+      panels.forEach(p => p.classList.toggle('active', parseInt(p.dataset.panel,10) === step));
+      steps.forEach(s => {
+        const n2 = parseInt(s.dataset.step,10);
+        s.classList.toggle('active', n2 === step);
+        s.classList.toggle('done', n2 < step);
+      });
+      btnBack.disabled = step === 1;
+      const groupKey = step === 1 ? 'style' : step === 2 ? 'decor' : 'ambiance';
+      btnNext.disabled = !selection[groupKey];
+      btnNext.textContent = step === totalSteps ? 'Voir ma proposition' : 'Suivant';
+    }
+
+    steps.forEach(s => s.addEventListener('click', () => {
+      const target = parseInt(s.dataset.step,10);
+      if (target < step || selection.style) goToStep(target);
+    }));
+
+    btnNext.addEventListener('click', () => {
+      if (step < totalSteps) {
+        goToStep(step + 1);
+      } else {
+        finalBox.scrollIntoView({ behavior:'smooth', block:'center' });
+      }
+    });
+    btnBack.addEventListener('click', () => goToStep(step - 1));
+
+    sendBtn.addEventListener('click', () => {
+      const msg = document.getElementById('f-msg');
+      if (msg && selection.style && selection.decor && selection.ambiance) {
+        msg.value = 'Nous imaginons un mariage ' + data.style[selection.style].label +
+          ', dans ' + data.decor[selection.decor].label +
+          ', pour une ambiance ' + data.ambiance[selection.ambiance].label + '. Parlons-en !';
+      }
+    });
+
+    goToStep(1);
+  })();
+
+  // ---------- Testimonials controls ----------
+  const tScroll = document.getElementById('t-scroll');
+  document.getElementById('t-next').addEventListener('click', () => {
+    tScroll.scrollBy({ left: 340, behavior: 'smooth' });
+  });
+  document.getElementById('t-prev').addEventListener('click', () => {
+    tScroll.scrollBy({ left: -340, behavior: 'smooth' });
+  });
+</script>
+
+</body>
+</html>
